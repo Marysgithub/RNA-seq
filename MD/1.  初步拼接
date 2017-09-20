@@ -1,0 +1,17 @@
+原文分析方法：
+
+Analysis and Mapping of DGE Tags
+
+The raw image outputs from the sequencer were transformed into base calls using the Illunina pipeline. 
+
+Prior to mapping the DGE tags, empty tags (no tag sequence between the adaptors), adaptors, low quality tags (tags with unknown sequences “N”), tags with a copy number of 1 (likely sequencing error), and tags that were too long or too short were excluded from the analysis, leaving behind clean tags of 21 nt in length. 
+
+The clean tags were mapped to the transcriptome of C. hongkongensis sequence (Tong et al., 2015) using Bowtie (Langmead et al., 2009). 
+
+Only tags with a perfect match or 1 nt mismatch were further considered and annotated. 
+
+To monitor mapping events on both strands, tags mapping to both sense and antisense sequences were included in the data analysis. 
+
+All tags mapped to the reference sequences were filtered, and the remaining clean tags were designated as unambiguous clean tags. 
+
+Gene expression was normalized using the Reads Per kb per Million (RPKM) method (Mortazavi et al., 2008).
