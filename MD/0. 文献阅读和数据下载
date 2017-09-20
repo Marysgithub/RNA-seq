@@ -1,0 +1,89 @@
+文献:
+
+http://journal.frontiersin.org/article/10.3389/fmars.2017.00112/full
+
+
+GEO号:
+
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85707
+
+SRA:
+SRR4035451 
+SRR4035452
+
+说明：
+
+SRX2026608: GSM2282031: control; Crassostrea hongkongensis; RNA-Seq
+
+1 ILLUMINA (Illumina Genome Analyzer) run: 6.1M spots, 300M bases, 166.2Mb downloads
+
+Submitted by: NCBI (GEO)
+Study: Identification of Differentially Expressed Genes involved in Thermal Adaptation of the Hong Kong Oyster by Digital Gene Expression Profiling
+研究目的：Thermal adaptation of the Hong Kong oyster
+
+PRJNA339141 • SRP082220 • All experiments • All runs
+Abstract
+Thermal exposure of sessile marine animals inhabiting estuarine intertidal regions is a matter of serious concern. 
+The Hong Kong oyster, Crassostrea hongkongensis is one of the dominant sessile inhabitants of marine intertidal region which undergoes large seasonal temperature fluctuations every year. 
+The oyster has developed several adaptation mechanisms to cope with acute thermal stress. 
+急性thermal stress.
+
+However, the genetic basis of these mechanisms remain largely unclear. 
+To better understand how acute thermal exposure affects the biology of the oyster, 
+two cDNA libraries obtained from the gill of oysters exposed to thermal stress and ambient temperature were sequenced 
+using the Digital Gene Expression (DGE) tag profiling strategy. 
+取样：gill exposed to thermal stress
+两个文库
+
+In total, 5.9 and 6.2 million reads were obtained for thermal stress and control libraries respectively, 
+with approximately 74.25% and 75.02 % of the reads mapping to the C. hongkongensis reference sequence. 
+比对率
+
+
+A total of 605 differentially expressed transcripts could be detected in the thermal stress group 
+as compared to the control group, of which 378 are up-regulated and 227 are down-regulated. 
+Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis 
+indicated that these Differentially Expressed Genes (DEGs) were enriched with a broad spectrum of biological processes 
+and pathways, including those associated with chaperones, antioxidants, immunity, apoptosis and cytoskeletal reorganization. 
+Among these significantly enriched pathways, protein processing in the endoplasmic reticulum 
+was the most affected metabolic pathway, which plays an important role in the unfolded protein response (UPR) 
+and ER-associated degradation (ERAD) processes. 
+
+GO和KEGG分析
+
+Our results demonstrate the complex multi-modal cellular response to thermal stress in C. hongkongensis. 
+Overall design: Digital gene expression tag profiling analysis of the Hong Kong oyster
+
+
+Sample: control group at ambient seawater (23 °C)
+SAMN05580108 • SRS1620943 • All experiments • All runs
+Organism: Crassostrea hongkongensis
+Library:
+
+Instrument: Illumina Genome Analyzer 
+分析仪器
+
+Strategy: RNA-Seq
+Source: TRANSCRIPTOMIC
+Selection: cDNA
+
+Layout: SINGLE 单端测序
+
+
+Construction protocol: 
+Gill were removed, flash frozen on dry ice, and RNA was harvested using Trizol reagent. 
+RNA libraries were prepared for sequencing using standard Illumina protocols
+取样
+
+Experiment attributes:
+GEO Accession: GSM2282031
+Links:
+Runs: 1 run, 6.1M spots, 300M bases, 166.2Mb
+Run	# of Spots	# of Bases	Size	Published
+SRR4035451	6,121,552	300M	166.2Mb	2016-10-11
+
+ID: 2925830
+
+查看当前文件夹中所有文件的大小
+ls -lht
+
