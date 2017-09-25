@@ -3,15 +3,31 @@
 Analysis and Mapping of DGE Tags
 
 The raw image outputs from the sequencer were transformed into base calls using the Illunina pipeline. 
+测序原始图像使用Illumina pipeline处理
 
-Prior to mapping the DGE tags, empty tags (no tag sequence between the adaptors), adaptors, low quality tags (tags with unknown sequences “N”), tags with a copy number of 1 (likely sequencing error), and tags that were too long or too short were excluded from the analysis, leaving behind clean tags of 21 nt in length. 
+Prior to mapping the DGE tags, empty tags (no tag sequence between the adaptors), adaptors, 
+low quality tags (tags with unknown sequences “N”), 
+tags with a copy number of 1 (likely sequencing error), 
+and tags that were too long or too short were excluded from the analysis, leaving behind clean tags of 21 nt in length. 
+比对DGE tags前，  先去除空tags,接头，低质量N, copy number数为1， 太长太短的tags. 
+留下的clean tags 为21nt.
 
-The clean tags were mapped to the transcriptome of C. hongkongensis sequence (Tong et al., 2015) using Bowtie (Langmead et al., 2009). 
+
+
+The clean tags were mapped to the transcriptome of C. hongkongensis sequence (Tong et al., 2015) using Bowtie (Langmead et al., 2009).
+用bowtie和之前的比对
 
 Only tags with a perfect match or 1 nt mismatch were further considered and annotated. 
+mismatch为1 nt
 
-To monitor mapping events on both strands, tags mapping to both sense and antisense sequences were included in the data analysis. 
+To monitor mapping events on both strands, tags mapping to both sense and antisense sequences were included in the data analysis.
+正反序列都比对
 
-All tags mapped to the reference sequences were filtered, and the remaining clean tags were designated as unambiguous clean tags. 
+All tags mapped to the reference sequences were filtered, and the remaining clean tags were designated as unambiguous clean tags.
+
 
 Gene expression was normalized using the Reads Per kb per Million (RPKM) method (Mortazavi et al., 2008).
+RPKM均一化
+
+
+本次尝试de novo.
